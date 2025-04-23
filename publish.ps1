@@ -1,2 +1,2 @@
-﻿$ModulePath = "$PSScriptRoot\PSWMS"
+﻿$ModulePath = "$PSScriptRoot"
 Publish-Module -Path $ModulePath -NuGetApiKey $Env:APIKEY
