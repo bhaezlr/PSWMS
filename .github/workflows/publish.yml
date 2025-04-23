@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Publish
         env: 
-          APIKEY: ${{ APIKEY }}
+          APIKEY: ${{ secrets.APIKEY }}
         run: .\publish.ps1
         shell: pwsh
