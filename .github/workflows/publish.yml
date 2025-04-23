@@ -11,4 +11,4 @@ jobs:
         env: 
           APIKEY: ${{ APIKEY }}
         run: .\publish.ps1
-        shell:pwsh
+        shell: pwsh
